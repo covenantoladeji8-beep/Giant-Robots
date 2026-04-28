@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(44, 5, 5); 
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+h1, h2, nav, .site-footer, div {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button {
+    background: transparent;
+    border: none;
+    padding: 10px 15px;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+button a:hover {
+    color: red; 
+}
+
+h1.title {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+#subtitle {
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-top: 60px;
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgb(174, 158, 158);
+}
+
+h2 a {
+    color: white;
+    text-decoration: underline;
+}
+
+nav {
+    margin-bottom: 40px;
+    border-bottom: 1px solid white(42, 5, 5);
+    padding-bottom: 20px;
+}
+
+nav p a {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    display: block;
+    margin-top: 8px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    padding-top: 40px;
+    border-top: 1px solid white;
+    max-width: 150px;
+}
+
+.footer-columns {
+    display: flex;
+    gap: 60px;
+    flex: 2;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    text-align: left !important;
+}
+
+.column a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+    border-bottom: 1px dotted white(255,255,255,0.2);
+    width: fit-content;
+}
+
+
+a[href*="hire-us"] {
+    border: 1px solid white !important;
+    padding: 4px 8px;
+    margin-top: 8px;
+}
+
+div[align="center"] {
+    margin-top: 30px;
+    letter-spacing: 5px;
+}
+
+div[align="center"] a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
