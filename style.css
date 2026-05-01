@@ -1,9 +1,21 @@
 body {
-    background-color: rgb(44, 5, 5); 
+    background-color: #201313; 
     color: white;
     font-family:Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     line-height: 1.6;
+}
+.title {
+    display: inline;
+    padding-left: 80px;
+    padding-right: 150px;
+}
+
+.navbar {
+    position: fixed;
+    height: 40;
+    width: 100%;
+    background-color: #201313;
 }
 
 h1, h2, nav, .site-footer, div {
@@ -27,7 +39,7 @@ button a {
 }
 
 button a:hover {
-    color: red; 
+    color: rgb(117, 117, 15); 
 }
 
 h1.title {
@@ -72,19 +84,23 @@ nav p a {
     align-items: flex-start;
     padding-top: 40px;
     border-top: 1px solid white;
-    max-width: 150px;
+    max-width: 5px;
 }
 
 .footer-columns {
     display: flex;
-    gap: 60px;
+    gap: 5px;
     flex: 2;
+}
+
+.footer-logo {
+    color: white;
 }
 
 .column {
     display: flex;
     flex-direction: column;
-    text-align: left !important;
+    text-align: left;
 }
 
 .column a {
@@ -98,9 +114,9 @@ nav p a {
 
 
 a[href*="hire-us"] {
-    border: 1px solid white !important;
+    border: 1px solid white;
     padding: 4px 8px;
-    margin-top: 8px;
+    margin-top: 4px;
 }
 
 div[align="center"] {
